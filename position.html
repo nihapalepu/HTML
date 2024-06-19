@@ -1,0 +1,35 @@
+<html>
+    <head>
+        <style>
+            #d1{
+                border: 1px solid;
+                background-color: blueviolet;
+              }
+            ul {
+                display: none;
+                list-style: none;
+            }
+            #d1:hover+ul{
+                display: block;
+                width:100px ;
+            }
+            ul{
+                margin: 0px;
+                display: none;
+            }
+            ul:hover{
+                display: block;
+                width: 200px ;
+            }
+        </style>
+    </head>
+    <body>
+        <b id="d1">Courses</b>
+        <ul>
+            <li>React Js</li>
+            <li>Angular</li>
+            <li>Java</li>
+            <li>Python</li>
+        </ul>
+    </body>
+</html>
